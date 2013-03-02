@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+
+	<name>gdoc</name>
+	<creationDate>21-February-2012</creationDate>
+	<author>Nicholas Dupuy</author>
+	<authorEmail>nykhone@yahoo.fr</authorEmail>
+	<authorUrl>nykhos.free.fr</authorUrl>
+	<copyright>(C) 2007-2013 Nykhone</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>2.0.1</version>
+	<description>1st gdoc ...</description>
+
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>gdoc.php</filename>
+	</files>
+
+	<administration>
+		<menu>gdoc</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>gdoc.php</filename>
+			<folder>sql</folder>
+		</files>
+	</administration>
+
+</extension>
