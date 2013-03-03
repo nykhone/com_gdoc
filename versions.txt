@@ -1,0 +1,8 @@
+com_gdoc
+==========
+
+Joomla component to list and import google spreadsheets.
+
+versions history (depuis le rapatriement sous joomla 2.5)
+
+2.0.1 : mise en place du projet
