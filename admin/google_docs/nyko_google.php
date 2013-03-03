@@ -1,6 +1,6 @@
 <?php
 
-require_once('/home/nykhos/Desktop/www/Joomla_2_5_8/administrator/components/com_gdoc/Zend/Loader.php');
+require_once('Zend/Loader.php');
 
 class nyko_google
 {
@@ -13,10 +13,10 @@ class nyko_google
 
 	public function __construct()
     {
-		Zend_Loader::loadClass('Zend_Gdata','/home/nykhos/Desktop/www/Joomla_2_5_8/administrator/components/com_gdoc/');
-		Zend_Loader::loadClass('Zend_Gdata_ClientLogin','/home/nykhos/Desktop/www/Joomla_2_5_8/administrator/components/com_gdoc/');
-		Zend_Loader::loadClass('Zend_Gdata_Spreadsheets','/home/nykhos/Desktop/www/Joomla_2_5_8/administrator/components/com_gdoc/');
-		Zend_Loader::loadClass('Zend_Http_Client','/home/nykhos/Desktop/www/Joomla_2_5_8/administrator/components/com_gdoc/');
+		Zend_Loader::loadClass('Zend_Gdata');
+		Zend_Loader::loadClass('Zend_Gdata_ClientLogin');
+		Zend_Loader::loadClass('Zend_Gdata_Spreadsheets');
+		Zend_Loader::loadClass('Zend_Http_Client');
 	}
 
 	public static function get_spreadsheets_service()
